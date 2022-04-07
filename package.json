@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss-cli": "^9.1.0",
+    "watch": "^1.0.2"
+  },
+  "scripts": {
+    "tw:build": "postcss ./css/tailwind.css -o ./public/build/tailwind.css",
+    "watch": "watch 'npm run tw:build' ./src"
+  }
+}
