@@ -9,6 +9,6 @@
   },
   "scripts": {
     "tw:build": "postcss ./css/tailwind.css -o ./public/build/tailwind.css",
-    "watch": "watch 'npm run tw:build' ./src"
+    "watch": "watch 'npm run tw:build' ./public"
   }
 }
